@@ -25,3 +25,14 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+
+/* Own:*/
+/* General:*/
+ul {
+  list-style: none;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+ }
