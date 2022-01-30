@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -16,6 +18,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
+  font-size: 20px;
 }
 
 input {
@@ -28,11 +32,67 @@ input {
 
 
 /* Own:*/
+/*
+div {
+  border: red solid 2px;
+}
+*/
+
+
 /* General:*/
 ul {
   list-style: none;
+  padding: 0px;
 }
 
 a:link, a:visited {
   text-decoration: none;
  }
+
+a{
+  margin: 5px;
+  padding: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+
+
+ /* Header:*/
+ /* General:*/
+ .header {
+   display: flex;
+   justify-content: space-between;
+ }
+
+.left-links {
+   display: flex;
+   margin: 20px;
+ }
+
+.right-links {
+  display: flex;
+  margin: 20px;
+}
+
+
+
+
+
+/*Content: */
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+
+
+/* Footer: */
+.footer {
+  display: flex;
+  background-color: #eeeeee;
+  justify-content: space-between;
+}
